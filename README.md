@@ -1,6 +1,6 @@
 # ClariGPT
 
-A research assistant chatbot that helps users analyze and summarize academic papers from arXiv using AI-powered tools and conversational interface.
+A research assistant chatbot that helps users analyze and summarize academic papers from arXiv using AI-powered tools and a conversational interface.
 
 ## Features
 
@@ -44,11 +44,6 @@ pip install -r requirements.txt
    ```python
    # In chat.py and Tools.py, replace with your API key
    os.environ["GROQ_API_KEY"] = "your_groq_api_key_here"
-   ```
-
-2. Create a `Memory` directory for storing downloaded papers:
-   ```bash
-   mkdir Memory
    ```
 
 ## Usage
